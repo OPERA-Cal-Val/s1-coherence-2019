@@ -71,3 +71,4 @@ __pycache__/
 *.vrt
 *.geojson
 !coherence_tiles.geojson
+!opera-north-america.geojson
