@@ -1,10 +1,10 @@
 # Loading Annual Coherence (2019-2020) Data from Sentinel-1
 
-Here is the link at the registry: https://registry.opendata.aws/ebd-sentinel-1-global-coherence-backscatter/
+A good description of the source dataset and its generation can be found here: https://registry.opendata.aws/ebd-sentinel-1-global-coherence-backscatter/. There are several more usage examples there in notebook form.
 
-There are several more examples including notebooks there.
+Currently, we are looking only at 12 day coherence data. The notebooks can easily be changed for inspecting different data that is apart of this large collection.
 
-Purpose here is to:
+Main goal of this repository is to:
 
-1. Be able to quickly do tile-by-tile masking for Validation quickly
-2. Visualize the coherence data - there are a variety of options (different temporal baselines and seasons)
+1. Perform tile-by-tile analysis of 12-day coherence for OPERA validation
+2. Visualize the 12-day coherence data
