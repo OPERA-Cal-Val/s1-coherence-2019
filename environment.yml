@@ -1,35 +1,32 @@
-name: s1_coherence 
+name: s1_coherence
 channels:
   - conda-forge
 dependencies:
-  - python=>3.11  # required for shapely 2.0.0
-  - pip
-  # For packaging, and testing
+  - python=>3.11 # required for shapely 2.0.0
+  - asf_search
+  - boto3
   - flake8
-  - flake8-import-order
   - flake8-blind-except
   - flake8-builtins
-  - ipympl
-  - setuptools
-  - setuptools_scm
-  - wheel
-  - pytest
-  - pytest-console-scripts
-  - pytest-cov
-  # For running
+  - flake8-import-order
+  - geopandas
   - importlib_metadata
-  # jupyter
+  - ipykernel
+  - ipympl
   - jupyter
   - jupyterlab
   - jupytext
-  - ipykernel
-  # gis
   - matplotlib
   - numpy
+  - pytest
+  - pytest-console-scripts
+  - pytest-cov
   - rasterio
-  - boto3
-  - geopandas
+  - requests
+  - setuptools
+  - setuptools_scm
   - shapely=>2.0
   - tqdm
-  - requests
-  - asf_search
+  - wheel
+  - pip:
+      - tile-mate
